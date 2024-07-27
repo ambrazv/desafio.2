@@ -1,6 +1,9 @@
 #Comienzo del Juego
 
+#Libreria
 import random
+
+#Variables a definir 
 
 cachipun = ["tijera", "papel", "piedra"]
 
@@ -8,6 +11,7 @@ computador = random.choice(cachipun)
 
 usuario = input("Ingresa tu jugada: ")
 
+# desarrollo 
 print(f"Tu jugaste {usuario}")
 print(f"Computador jugó {computador}")
 
